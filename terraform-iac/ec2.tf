@@ -20,7 +20,7 @@ resource "aws_instance" "node" {
   ami                    = "ami-02ee763250491e04a"
   key_name               = aws_key_pair.key_pair.id
   vpc_security_group_ids = [aws_security_group.secgroup.id]
-  subnet_id              = "subnet-00dbd270bea8a257e"
+  subnet_id              = "subnet-0ab85160044e5f8b3"
   associate_public_ip_address = "true"
 
   root_block_device {

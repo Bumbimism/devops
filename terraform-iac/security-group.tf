@@ -2,7 +2,7 @@
 # Create Security Groups
 resource "aws_security_group" "secgroup" {
   name        = "global-allow-all"
-  vpc_id      = "vpc-0002eebda75b45fda"
+  vpc_id      = "vpc-02ff2fe55eaab3059"
 
 ingress {
     from_port   = 0
